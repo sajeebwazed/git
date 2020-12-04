@@ -2,45 +2,353 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>design</title>
-    <!-- LUXBAR-NAV -->
-    <link rel="stylesheet" href="css/luxbar.min.css">
-    <!-- ALL.MIN.CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- google.font- -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:ital,wght@0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <!-- all.min.css -->
     <link rel="stylesheet" href="css/all.min.css">
-    <!-- BOOTSTARP.CSS -->
+    <!-- NavBar.css -->
+    <link rel="stylesheet" href="css/luxbar.min.css">
+    <!-- bootstarp.css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- STYLE.CSS -->
+    <!-- style.css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Title -->
+    <title>Psd Desgin</title>
 </head>
 <body>
-<!-- STAR-NAV-SECTION -->
-<section class="nav-section">
-    <div class="nav-area">
+<!-- start-nav-section -->
+<section id="nav-section">
+    <div class="container">
         <header id="luxbar" class="luxbar-fixed">
-            <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
-            <div class="luxbar-menu luxbar-menu-right luxbar-menu-material-green container">
+            <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox" />
+            <div class="luxbar-menu luxbar-menu-right  container">
                 <ul class="luxbar-navigation">
                     <li class="luxbar-header">
-                        <a href="#" class="luxbar-brand"><span1>S</span1>AJEE<span>B</span></a>
-                        <label class="luxbar-hamburger luxbar-hamburger-spin" 
-                        id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+                        <a href="#" class="luxbar-brand"><i class="fas fa-trophy"></i> BixTech</a>
+                        <label class="luxbar-hamburger luxbar-hamburger-doublespin" id="luxbar-hamburger" for="luxbar-checkbox">
+                            <span></span> </label>
                     </li>
-                    <li class="luxbar-item"><a href="#">Item 1</a></li>
-                    <li class="luxbar-item"><a href="#">Item 2</a></li>
-                    <li class="luxbar-item"><a href="#">Item 3</a></li>
-                    <li class="luxbar-item"><a href="#">Item 4</a></li>
+                    <li class="luxbar-item activ-nav"><a href="index.html">Home</a></li>
+                    <li class="luxbar-item"><a href="about.html">About</a></li>
+                    <li class="luxbar-item"><a href="services.html">services</a></li>
+                    <li class="luxbar-item"><a href="protfolio.html">Protfolio</a></li>
+                    <li class="luxbar-item"><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
         </header>
     </div>
 </section>
-<!-- END-NAV-SECTION -->
+<!-- end-nav-section -->
+
+<!-- start-banner-section -->
+<section id="banner-section">
+    <div class="container">
+        <div class="banner-area">
+            <div class="banner-text">
+                <h3 class="banner-hh33">Business Growth</h3>
+                <h1 class="banner-hh11">CONSULTING</h1>
+                <div class="banner-btn">
+                    <a href="#">our service</a>
+                </div>
+            </div>
+            <div class="banner-imgg">
+                <img src="img/women.png" alt="img">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end-banner-section -->
+
+<!-- start-About-section -->
+<section id="about-section">
+    <div class="container">
+        <div class="about-area">
+            <div class="about-header">
+                <h1 class="common-header text-center">ABOUT</h1>
+                <div class="commen-width"></div>
+                <p class="common-para text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni
+                provident, doloribus omnis minus ovident, doloribus omnis minus temporibus perferendis nesciunt..</p>
+            </div>
+            <div class="about-grid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="img-fluid hover-img" src="img/about (1).svg" alt="img">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="about-hhrr3">Lorem ipsum dolor sit amet, consectetur adipiscing</h3>
+                        <h4 class="about-hhrr4">Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident</h4>
+                        <p class="common-para">Consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat. Dolores quae porro consequatur
+                        aliquam, incidunt fugiat culpa esse aute nulla. malis nulla duis fugiat</p>
+                        <p class="dommon-para"><i class="far fa-check-square"></i> Dolores quae porro consequatur aliquam, incidunt fugiat culpa.</p>
+                        <p class="dommon-para"><i class="far fa-check-square"></i> Dolores quae porro consequatur aliquam, culpa esse aute nulla.</p>
+                        <p class="dommon-para"><i class="far fa-check-square"></i> Dolores quae porro esse aute nulla. malis nulla duis fugiat</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end-Abuot-section -->
+
+<!-- start-Services-section -->
+<section id="services">
+    <div class="container">
+        <div class="services-area">
+            <div class="services-header">
+                <h1 class="common-header text-center">SERVICES</h1>
+                <div class="commen-width"></div>
+                <p class="common-para text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro
+                consequatur aliquam, incidunt eius magni
+                provident, doloribus omnis minus ovident, doloribus omnis minus temporibus perferendis nesciunt..</p>
+            </div>
+            <div class="services-table11">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="table text-center">
+                            <i class="fas fa-briefcase servics-icon"></i>
+                            <h4 class="services-hhrr44">Marketing</h4>
+                            <p class="service-common-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa
+                            esse aute nulla.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="table text-center">
+                            <i class="fas fa-chess-knight servics-icon"></i>
+                            <h4 class="services-hhrr44">Consulting</h4>
+                            <p class="service-common-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat
+                            culpa
+                            esse aute nulla.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="table text-center">
+                            <i class="fas fa-pencil-ruler servics-icon"></i>
+                            <h4 class="services-hhrr44">Development</h4>
+                            <p class="service-common-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat
+                            culpa
+                            esse aute nulla.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services-table12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="table text-center">
+                            <i class="fab fa-dribbble servics-icon"></i>
+                            <h4 class="services-hhrr44">Financial</h4>
+                            <p class="service-common-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                            porro consequatur aliquam, incidunt fugiat culpa
+                            esse aute nulla.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="table text-center">
+                            <i class="fas fa-bullhorn servics-icon"></i>
+                            <h4 class="services-hhrr44">Consulting</h4>
+                            <p class="service-common-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                            porro consequatur aliquam, incidunt fugiat
+                            culpa
+                            esse aute nulla.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="table text-center">
+                            <i class="fas fa-trophy servics-icon"></i>
+                            <h4 class="services-hhrr44">Quality</h4>
+                            <p class="service-common-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                            porro consequatur aliquam, incidunt fugiat
+                            culpa
+                            esse aute nulla.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end-Services-section -->
+
+<!-- start-Testimonials-section1 -->
+<section id="testimonials">
+    <div class="container">
+        <div class="testimonials-fast-area">
+            <div class="testimonials-header">
+                <h1 class="common-header text-center">CLIENTS</h1>
+                <div class="commen-width"></div>
+                <p class="common-para text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro
+                consequatur aliquam, incidunt eius magni
+                provident, doloribus omnis minus ovident, doloribus omnis minus temporibus perferendis nesciunt..</p>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <img class="img-fluid test-fast" src="img/client-1.png" alt="img">
+                </div>
+                <div class="col-md-2">
+                    <img class="img-fluid test-fast" src="img/client-2.png" alt="img">
+                </div>
+                <div class="col-md-2">
+                    <img class="img-fluid test-fast" src="img/client-3.png" alt="img">
+                </div>
+                <div class="col-md-2">
+                    <img class="img-fluid test-fast" src="img/client-4.png" alt="img">
+                </div>
+                <div class="col-md-2">
+                    <img class="img-fluid test-fast" src="img/client-5.png" alt="img">
+                </div>
+                <div class="col-md-2">
+                    <img class="img-fluid test-fast" src="img/client-6.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end-Testimonials-section1 -->
+
+<!-- start-Testimonials-section2 -->
+<section id="testimonials">
+    <div class="container">
+        <div class="testimonials-fast-area">
+            <div class="testimonials-header">
+                <h1 class="common-header text-center">TESTIMONIALS</h1>
+                <div class="commen-width"></div>
+                <p class="common-para text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro
+                consequatur aliquam, incidunt eius magni
+                provident, doloribus omnis minus ovident, doloribus omnis minus temporibus perferendis nesciunt..</p>
+            </div>
+            <div class="testimonial-slider">
+                <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="10000">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="text-table">
+                                        <p class="text-para text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa
+                                        esse aute nulla. duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+                                    </div>
+                                    <div class="offcer-neme text-center">
+                                        <h4 class="ceo">Williams Belly</h4>
+                                        <p class="ceo-para">Accounts</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="text-table">
+                                        <p class="text-para text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat
+                                        culpa
+                                        esse aute nulla. duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+                                    </div>
+                                    <div class="offcer-neme text-center">
+                                        <h4 class="ceo">Larry Hanson</h4>
+                                        <p class="ceo-para">Investor</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="text-table">
+                                        <p class="text-para text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat
+                                        culpa
+                                        esse aute nulla. duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+                                    </div>
+                                    <div class="offcer-neme text-center">
+                                        <h4 class="ceo">Mrio James</h4>
+                                        <p class="ceo-para">CEO & Founder</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="2000">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="text-table">
+                                        <p class="text-para text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                                        porro consequatur aliquam, incidunt fugiat culpa
+                                        esse aute nulla. duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+                                    </div>
+                                    <div class="offcer-neme text-center">
+                                        <h4 class="ceo">Finton Gofnes</h4>
+                                        <p class="ceo-para">CTO</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="text-table">
+                                        <p class="text-para text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                                        porro consequatur aliquam, incidunt fugiat
+                                        culpa
+                                        esse aute nulla. duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+                                    </div>
+                                    <div class="offcer-neme text-center">
+                                        <h4 class="ceo">Marcus Kell</h4>
+                                        <p class="ceo-para">Marketing</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="text-table">
+                                        <p class="text-para text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae
+                                        porro consequatur aliquam, incidunt fugiat
+                                        culpa
+                                        esse aute nulla. duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+                                    </div>
+                                    <div class="offcer-neme text-center">
+                                        <h4 class="ceo">Larry Hanson</h4>
+                                        <p class="ceo-para">Investor</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                        <span class="carousel-control" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                        <span class="carousel-control" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end-Testimonials-section2 -->
+
+<!-- start-footer-section -->
+<section id="footer">
+    <div class="container">
+        <div class="footer-area">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="footer-header">
+                        <h3 class="footer-head-text">Get Our Service</h3>
+                        <p class="footer-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt fugiat culpa
+                        esse aute nulla cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="btn-btnnn">
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end-footer-section -->
+
+<!-- start-footer-section -->
+<section class="end-section">
+    <div class="container">
+        <div class="end-area text-center">
+            <h6 class="end-hhrr66">© Copyright<strong>BizTech</strong>.All Rights Reserved</h6>
+            <h5 class="end-hhrrr55">Template by <a href="#">WebThemez</a></h5>
+        </div>
+    </div>
+</section>
+<!-- end-footer-section -->
 
 
-
-<!-- JAVASCRIP-BOOTSTARP-JQURY -->
-<script src="js/jquery-3.5.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<!-- jQuery-3-Bootstarp-4 -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
 </body>
 </html>
