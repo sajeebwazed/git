@@ -1,0 +1,35 @@
+/* HAEDER-SECTION */
+body{
+    font-size: 18px;
+    color:#000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* COMMON-CSS */
+span{
+    font-size: 28px;
+    font-style: italic;
+    color:#28C76F;
+}
+span1{
+    font-size: 38px;
+    font-style: italic;
+    color:#28C76F;
+    text-decoration: none;
+}
+/* NAV-SECTION */
+.luxbar-brand{
+    font-size: 28px;
+}
+.luxbar-brand:hover{
+    color:#28C76F;
+    transition: .5s;
+}
+.luxbar-menu-material-green, .luxbar-menu-material-green .dropdown ul {
+    background-color: #0f1a14;
+    color: #fff;
+}
+a:hover {
+    color:#fff;
+    text-decoration: none;
+}
